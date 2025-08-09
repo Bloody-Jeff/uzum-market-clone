@@ -4,11 +4,8 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "functions": {
-    "app/**/*.{js,ts,jsx,tsx}": {
-      "runtime": "nodejs18.x"
-    }
-  },
+
+  
   "rewrites": [
     {
       "source": "/api/(.*)",
